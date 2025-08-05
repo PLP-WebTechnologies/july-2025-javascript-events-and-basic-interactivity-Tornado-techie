@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#toggleMode {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#standardDetails, #formMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-answer {
+    display: none;
+    margin-left: 20px;
+    font-style: italic;
+}

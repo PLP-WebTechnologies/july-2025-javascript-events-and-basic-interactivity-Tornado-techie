@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ISO Standards & Compliance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ISO Standards & Compliance</h1>
+        <button id="toggleMode">Toggle Light/Dark Mode</button>
+    </header>
+
+    <section>
+        <h2>Select an ISO Standard</h2>
+        <select id="standardSelect">
+            <option value="">--Choose Standard--</option>
+            <option value="ISO 9001">ISO 9001 - Quality</option>
+            <option value="ISO 14001">ISO 14001 - Environmental</option>
+            <option value="ISO 22000">ISO 22000 - Food Safety</option>
+            <option value="ISO 45001">ISO 45001 - Occupational Health & Safety</option>
+        </select>
+        <div id="standardDetails"></div>
+    </section>
+
+    <section id="isoFormSection">
+        <h2>ISO Certification Application</h2>
+        <form id="isoForm">
+            <label for="companyName">Company Name:</label>
+            <input type="text" id="companyName" name="companyName">
+
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" name="email">
+
+            <button type="submit">Submit Application</button>
+        </form>
+        <div id="formMessage"></div>
+    </section>
+
+    <section>
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        <div class="faq-item">
+            <h3 class="faq-question">What is ISO Certification?</h3>
+            <p class="faq-answer">ISO Certification is a seal of approval from a third party body that a company complies with ISO management standards.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">Is ISO Certification mandatory?</h3>
+            <p class="faq-answer">In most industries, it’s voluntary but greatly boosts credibility and market access.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ISO Awareness | Designed by Salome Mundia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
